@@ -685,7 +685,7 @@ public class LocalNotification extends CordovaPlugin {
     public static void showNotification(String title,String notification){
        	int duration = Toast.LENGTH_LONG;
        	if(title.equals("")){
-       		title = "Notification";
+       		title = "Notification***";
        	}
        	String text = title + " \n " + notification;
        	
